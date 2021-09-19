@@ -1,23 +1,15 @@
 package com.example.samples
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 
-class MainActivity : AppCompatActivity() {
-
-    private val TAG ="MainActivity"
+class LoginActivity : AppCompatActivity() {
+    private val TAG = "LoginActivity"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
         Log.d(TAG, "LifeCycle onCreate ")
-    }
-
-    fun onNextClick(view: View){
-        val intent = Intent(this@MainActivity,LoginActivity::class.java)
-        startActivity(intent)
     }
 
     override fun onStart() {
