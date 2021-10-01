@@ -1,8 +1,9 @@
-package com.example.samples
+package com.example.samples.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.samples.R
 
 class LoginActivity : AppCompatActivity() {
     private val TAG = "LoginActivity"
